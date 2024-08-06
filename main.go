@@ -1,11 +1,3 @@
-// The bigquery_storage_quickstart application demonstrates usage of the
-// BigQuery Storage read API.  It demonstrates API features such as column
-// projection (limiting the output to a subset of a table's columns),
-// column filtering (using simple predicates to filter records on the server
-// side), establishing the snapshot time (reading data from the table at a
-// specific point in time), decoding Avro row blocks using the third party
-// "github.com/linkedin/goavro" library, and decoding Arrow row blocks using
-// the third party "github.com/apache/arrow/go" library.
 package main
 
 import (
